@@ -5,16 +5,34 @@ $color: #272e62;
 
 // General 
 
-a {
-	color: $color;
-	font-weight: bold;
-}
+body {
 
-p {
 	font-family: SFUIDisplay-Regular;
 	font-size: 22px;
 	color: #272e62;
 	letter-spacing: -0.36px;
+
+	a {
+		color: $color;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 24px !important;
+	}
+
+	.rep {
+		color: #ff2d55;
+	}
+
+	.dem {
+		color: #007aff;
+	}
+
+	.ind {
+		color: #949ca1;
+	}
+
 }
 
 // Hero Section
@@ -43,11 +61,36 @@ p {
 
 }
 
+// State List
+
+.FOAState {
+
+	border-top: 1px solid #cdced2;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+
+	h2 {
+		margin-bottom: $gutter*1.5;
+	}
+
+	span.glyphicon.glyphicon-menu-right {
+		display: block;
+		float: right;
+	}
+
+	span {
+		display: block;
+		float: right;
+	}
+
+}
+
 // Footer 
 
 footer {
 	margin: 0px auto;
 	padding: 0px;
-	padding: $gutter/2;
+	padding: $gutter;
 	text-align: center;
 }
